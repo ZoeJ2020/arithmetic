@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+h2
+{
+    font-family: 'Varela Round', sans-serif;
+    color: #393C8F;
+    font-size: 58px;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+input
+{
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+button
+{
+    font-size: 19px;
+    padding: 0% 1%;
+    margin-bottom: 2%;
+}
+
+span 
+{
+    display: block;
+    overflow: hidden;
+}
+
+label
+{
+    float: left;
+    padding-top: 15px;
+    padding-right: 2%;
+}
+
+.inputs
+{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.button
+{
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    
+    border-bottom: solid 4px #7C7EBB;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#feedback
+{
+    text-align: center;
+    float: none;
+    font-size: 23px;
+}
+
+#attempts
+{
+    text-align: center;
+    float: none;
+    font-size: 23px;
+    color: #393C8F;
+}
+
+
+/*MEDIA WIDTH CSS*/
+
+@media (max-width: 800px){
+
+    .inputs
+    {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .button
+    {
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/app.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+    
+    <div data-role="page" data-title="Arithmetic Guessing Game" id="index" data-theme="a">
+        <!-- page start -->
+
+        <div data-role="header" data-position="fixed">
+            <h1>Application</h1>
+        </div>
+
+        <div data-role="content">
+            <h2>Arithmetic Guessing Game</h2>
+            <p>Welcome to the arithmetic guessing game!</p>
+
+           
+                    <label for="table" id="p">Which table would you like to test yourself on?</label>
+                <span class="inputs">
+                    <input type="text" id="table" placeholder="Times table here...">
+                </span>
+
+            <span class="button">
+                <button onclick="tableInput()" id="a-button">Submit</button>
+            </span>
+
+            <p class="question-p"><span id="question-p">Your question is:</span></p><br>
+                <label for="ans" id="question">? x _ = ?</label>
+                <span class="inputs">
+                    <input type="text" id="ans" placeholder="What is _ ?">
+                </span>
+
+            <span class="button">
+                <button id="b-button" onclick="checkAns()">Submit</button>
+            </span>
+
+            <label id="feedback"></label>
+            <label id="attempts"></label>
+            <label id="timestables"></label>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h4>&copy; Zoe Johnston 2021</h4>
+        </div>
+
+        <!-- page end -->
+    </div>
+</body>
+</html>
