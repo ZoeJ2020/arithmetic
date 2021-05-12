@@ -44,7 +44,12 @@ function checkAns()
             document.getElementById("a-button").disabled=true;
             document.getElementById("b-button").disabled=true;
             
-            break;
+            setTimeout(function(){
+                location.replace("app.html");
+            }, 1300);
+            {
+                break;
+            }
         }
         
         else
