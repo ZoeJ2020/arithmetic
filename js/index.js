@@ -4,8 +4,8 @@ var counter = 0;
 function checkUser()
 {
     //Local Variables
-    var username="adminGCC";
-    var pwd="password";
+    var username="admin";
+    var pwd="admin";
     var checkUser="";
     var checkPwd="";
 
